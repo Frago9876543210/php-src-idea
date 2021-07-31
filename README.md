@@ -18,4 +18,7 @@ cd php-src
 
 compiledb make -j8
 ./sapi/cli/php -v
+
+echo "compile_commands.json" >> .git/info/exclude
+echo ".idea" >> .git/info/exclude
 ```
