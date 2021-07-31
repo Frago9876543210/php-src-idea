@@ -3,14 +3,16 @@
 Based on [using CLion with php-src](https://dev.to/ramsey/using-clion-with-php-src-4me0)
 
 ```bash
-cd /mnt/tmpfs
+WORKING_DIR=/mnt/tmpfs
+
+cd $WORKING_DIR
 pip3 install compiledb
 
 git clone --depth=1 https://github.com/php/php-src.git
 cd php-src
 ./buildconf
 ./configure \
-    --prefix=/mnt/tmpfs/builds/php/8.1.0-dev \
+    --prefix=$WORKING_DIR/builds/php \
     --disable-all \
     --disable-cgi \
     --enable-debug \
