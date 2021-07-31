@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="e178c20c-4d1d-4c21-beb1-a7da7993a94b" name="Build PHP" defaultType="TOOL">
+      <configuration id="ecde1081-e7c3-495d-8037-a3beb59610fe" name="Build PHP">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Build with Make" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_Clean with Make" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
